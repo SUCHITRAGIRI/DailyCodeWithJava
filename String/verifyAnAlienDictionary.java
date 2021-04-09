@@ -1,7 +1,7 @@
 
-//953: Leetcode Problem(April DailyChallange) 
-//https://leetcode.com/problems/verifying-an-alien-dictionary/
 
+// 953: Leetcode Problem(April DailyChallange) 
+// https://leetcode.com/problems/verifying-an-alien-dictionary/
 
 class Solution {
     public boolean isAlienSorted(String[] words, String order) {
