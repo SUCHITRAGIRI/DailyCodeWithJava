@@ -110,8 +110,8 @@ public class Graph {
 	}
 	
 	//Using stack data structure
-	public boolean dfsStack(int source, int destination) {
-		
+	public boolean dfsStack(int source, int destination){
+
 		Stack<Integer> stack = new Stack<>();
 		boolean[] visit = new boolean[adj.length];
 		
@@ -132,5 +132,3 @@ public class Graph {
 		return false;
 	}
 	}
-
-
