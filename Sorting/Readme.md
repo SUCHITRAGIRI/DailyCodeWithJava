@@ -13,7 +13,7 @@
 6. Bucket Sort
 
 ## Unstable Sort :
-1. Selection Sort
+1. Selection Sort (but in case of linkedlist it is a stable)
 2. Quick Sort
 3. Heap Sort
 
