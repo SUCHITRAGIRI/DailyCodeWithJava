@@ -2,7 +2,7 @@ package GraphImplementation;
 import java.util.*;
 //Learning graph how to define, traversal--> BFS, DFS all are here!
 //Actually its been 4th days and I didn't do coding:(
-//that's y I am not feeling well.BTW I will cover nd again from earlier days i will put my interest on it:)
+//that's y I am not feeling well.BTW I will cover nd again as earlier days i will put my interest on it:)
 public class Graph1 {
 
 	public static void main(String[] args) {
