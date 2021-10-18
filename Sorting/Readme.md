@@ -32,6 +32,7 @@ Merge Sort is an “Non-Adaptive” Sorting algorithm, because the order of the 
 ## Non-adaptive sorting algorithms:
 1. Selection Sort
 2. Merge Sort
+3. Heap Sort
 
  
 ## Algorithm	Time Complexity	 
