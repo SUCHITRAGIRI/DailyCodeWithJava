@@ -1,6 +1,6 @@
 //time : O(N)
 //space : O(2N)
-
+//https://leetcode.com/problems/concatenation-of-array/
 class Solution {
     public int[] getConcatenation(int[] nums) {
         int[] result = new int[nums.length * 2];
