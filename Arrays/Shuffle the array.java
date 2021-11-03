@@ -1,4 +1,5 @@
-//
+// Time : O(n)
+// space : O(2n)
 class Solution {
     public int[] shuffle(int[] nums, int n) {
         //using extra array sc : O(N)
@@ -13,3 +14,5 @@ class Solution {
         return res;
     }
 }
+
+//Can you do with O(1) space, means in place ???
