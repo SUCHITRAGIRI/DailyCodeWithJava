@@ -1,5 +1,7 @@
 // Time : O(n)
 // space : O(2n)
+
+//https://leetcode.com/problems/shuffle-the-array/
 class Solution {
     public int[] shuffle(int[] nums, int n) {
         //using extra array sc : O(N)
