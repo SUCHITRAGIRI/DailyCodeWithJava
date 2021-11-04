@@ -51,11 +51,11 @@ class Solution {
 
 class Solution {
     //time : O(N)
-    //soace : O(N)
+    //soace : O(N)  ----> In doubt little bit
     public int numIdenticalPairs(int[] A) {
         int res = 0, count[] = new int[101];
         for (int a: A) {
-            res += count[a]++;
+            res += count[a]++;    // this is a post increatement operator, so here 1st add the count array value with res then just increatement the count!
         }
         return res;
     }
