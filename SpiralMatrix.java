@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/spiral-matrix/
 //Very insightful problem
 
-//O(
+//O(N^2)
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         int m = matrix.length;
