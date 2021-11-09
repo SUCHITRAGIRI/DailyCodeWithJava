@@ -25,9 +25,11 @@ class Solution {
 class Solution {
     public int singleNumber(int[] nums) {
         //using XOR operator
-        int uniqueNo = 0;
+        int uniqueNo = 0;   // as we know about XOR operator
+        // if XOR with same num gives 0 ===> n ^ n = 0 
+        // and XOR with 0 gives the num itself ===> n ^ 0 = n
         for(int i = 0; i < nums.length; i++){
-            uniqueNo ^= nums[i];
+            uniqueNo ^= nums[i];  //so, here twise nos are cancelled and only left with the unique no, when we perform XOR with total ele in an array
         }
         
         return  uniqueNo;
