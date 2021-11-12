@@ -1,6 +1,6 @@
 // 1. Unstable sort
 // 2. TC : O(N^2) 
-// 3. Non Adaptive sorting algo (means alway the tc will be n^2 will not change in the input array order, ex if array is already sorted still it will take O(n^2) means doesn't matter arr is in which order it will take same for every input)
+// 3. Non Adaptive sorting algo (means always the tc will be n^2 will not change in the input array order, ex if array is already sorted still it will take O(n^2) means doesn't matter arr is in which order it will take same for every input)
 
 
 //########### Logic #################
@@ -8,7 +8,7 @@
 // j = i + 1 ; j < n (inner loop)
 //1. initalize ith index as min value index
 //2. then start compare with arr[min] with rest array 
-// nd if found the other ele is less the the arr[min] value then just upade the min index value with found less ele index
+// nd if found the other ele is less than the arr[min] value then just upadate the min index value with found less ele index
 //now find the 1st min index , exit the inner for loop
 // nd swap arr[min] with arr[i]
 // repeat the steps
