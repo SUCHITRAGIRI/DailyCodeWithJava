@@ -40,7 +40,7 @@ class Solution {
             sb2.append(word2[i]);
         }
         
-        return sb1.toString().equals(sb2.toString()); //here
+        return sb1.toString().equals(sb2.toString()); //If you look at the source, you'll conclude that the most efficient comparison (that didn't involve creating any new objects) would be to compare .length() return values, and then if they're the same, compare the return values of charAt(i) for each character.
         
     }
 }
