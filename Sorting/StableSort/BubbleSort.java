@@ -1,5 +1,6 @@
 //Bubble sort is stable and adaptive.
 //Tc : O(N^2)
+//Best case Tc: O(N), and in place algo!
 
 
 
