@@ -4,7 +4,7 @@
 //2. Adaptive (means tc reduces when array is sorted, no need to do anything by users)
 //3. Worst Case : time O(N^2)
 //     Best Case : time O(N)
-//4. In place sorting means no requre any extra space 
+//4. In place sorting means no require any extra space 
 // Space complexity O(1)
 
 
