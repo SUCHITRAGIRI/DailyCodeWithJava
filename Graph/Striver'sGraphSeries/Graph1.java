@@ -76,7 +76,7 @@ public class Graph1 {
 		//Define a Queue
 		Queue<Integer> q = new LinkedList<>();
 		
-		//otherwise we add have to take this for loop(if we know that connected graph ###not having multiple component)
+		//otherwise we don't have to take this for loop(if we know that connected graph ###not having multiple component)
 		
 		for(int i = 1; i <= v; i++) {
 			if(vis[i] == false) {
