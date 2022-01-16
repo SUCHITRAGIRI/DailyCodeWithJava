@@ -1,4 +1,4 @@
-//Bipartite check using BFS
+//Bipartite check using BFS (reference - https://www.youtube.com/watch?v=nbgaEu-pvkU)
 package GraphImplementation;
 
 import java.util.*;
