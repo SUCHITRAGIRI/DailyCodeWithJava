@@ -88,7 +88,7 @@ class Solution
 }
 
 
-//recursive approach
+//recursive approach (In this approach we maitains the pointer in revese order while returing from base case)
         if(head==null|| head.next==null)return head;
        
         
@@ -97,3 +97,17 @@ class Solution
         head.next=null;
         
         return node;
+
+//Another recursive approach! (Here 1st we maintain the order in reverse the pointer the go to ahead node!) and when reach the base case just return the newHead!
+    public static Node reverseList1(Node head) {
+        /* recursive solution */
+        return reverseListInt(head, null);
+    }
+
+    private static Node reverseListInt(Node head, Node newHead) {
+        if (head == null)
+            return newHead;
+        Node next = head.next;
+        head.next = newHead;
+        return reverseListInt(next, head);
+    }
