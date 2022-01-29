@@ -13,8 +13,12 @@ class Node{
 }*/
 class Solution
 {
-	public static Node sortedInsert(Node head,int data)
+	//The problem statement is: we have given circular sorted linkedlist, and data for intering in its proper position so 
+	//so that it remain in sorting order!
+	public static Node sortedInsert(Node head,int data)   
          {
+	    //condition 1: if data is less than head's data so in this case we have to insert data befor the head and make it as new head	
+	    //condition 2: if the data is largest or in betw the node's data, in this case we just have to  maintain our pointer accordingly,with the help of two pointers prev and next.	
             if(head == null)return new Node(data);
             Node last = head;
             while(last.next != head){
